@@ -38,7 +38,7 @@ jobs:
         run: npm install --legacy-peer-deps
 
       - name: Build
-        run: npm run build-dev
+        run: npm run build
        
 # Zip artifacts to speed things up
       - name: Zip artifact for deployment
